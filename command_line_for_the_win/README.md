@@ -29,6 +29,6 @@ Confirm that the screenshots have been successfully transferred by checking the 
 
 Once the screenshots are transferred, you can proceed to push the screenshots to GitHub as mentioned in the initial requirements.
 
-SFTP Guide
+[SFTP Guide](https://intranet.alxswe.com/rltoken/OwMT_ctWdMI7L6JFzLvVKQ)
 
-SFTP File Transfer Tutorial
+[SFTP File Transfer Tutorial](https://intranet.alxswe.com/rltoken/aTKBzKWZ5EI-qZjJVblUzg)
