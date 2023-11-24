@@ -3,7 +3,7 @@
 #include "unistd.h"
 
 /** prototype func*/
-int run_loop(void);
+int infinte_while(void);
 
 /**
  * main - a function that creats 5 zombie process
@@ -20,10 +20,10 @@ int main(void)
 		if (!pid)
 			break;
 		printf("Zombie process created, PID: %i\n", (int)pid);
-		children_process++;
+		child_process++;
 	}
 	if (pid != 0)
-		run_loop();
+		infinte_while();
 	return (0);
 }
 
@@ -31,7 +31,7 @@ int main(void)
  * infinite_while - a function that will run an infinite times
  * Return: 0 in the end
 */
-int run_loop(void)
+int infinte_while(void)
 {
 	while (1)
 	{
