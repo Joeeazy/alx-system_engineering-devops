@@ -72,8 +72,28 @@ Ethernet and Wi-Fi are common technologies used to implement LANs, providing hig
 As the distance increases, the performance of these technologies may degrade, and other types of networks, such as wide-area networks (WANs), become more suitable.
 
 # What is a WAN
+
 * Typical usage
+
+A WAN, or Wide Area Network, is a type of network that spans a large geographical area, connecting multiple LANs and other network devices across cities, regions, or even countries. 
+
+The primary purpose of a WAN is to facilitate communication and data exchange between devices that are not in close physical proximity. 
+
+WANs use various technologies to transmit data over long distances.
+
 * Typical geographical size
+
+ * Interconnecting LANs: WANs are used to connect multiple LANs, allowing organizations with offices in different locations to share resources, data, and information seamlessly.
+
+ * Internet Connectivity: WANs provide access to the internet, allowing users in different locations to connect to online resources and services. This is crucial for global communication and accessing informat   ion hosted on servers located around the world.
+
+ * Corporate Networking: Large enterprises use WANs to establish a network infrastructure that spans across their various offices and branches. This enables centralized management, communication, and resource    sharing.
+
+ * Telecommunication Networks: WANs are the backbone of telecommunications, connecting telephone networks, mobile networks, and other communication systems across vast distances.
+
+ * Cloud Computing: WANs play a key role in connecting users to cloud-based services and resources. Cloud data centers are often accessed over WANs, enabling users to utilize computing resources and storage ho   sted remotely.
+
+ * Remote Access: WANs support remote access to corporate networks, allowing employees to connect to the organization's resources from different locations, whether they are working from home or traveling.
 
 # What is the Internet
 
