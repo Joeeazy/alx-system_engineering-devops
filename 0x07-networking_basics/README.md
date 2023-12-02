@@ -13,6 +13,21 @@ Each layer serves a specific purpose and interacts with adjacent layers, providi
 The model was developed by the International Organization for Standardization (ISO) to promote interoperability and compatibility between different systems and vendors.
 
 * How many layers it has
+The OSI Model consists of the following seven layers, listed from the lowest level to the highest level:
+
+* Physical Layer: Deals with the physical connection between devices, defining characteristics such as voltage levels, data rates, and physical connectors.
+
+* Data Link Layer: Responsible for creating a reliable link between two directly connected nodes, addressing errors in the physical layer and ensuring the accurate delivery of frames.
+
+* Network Layer: Manages the routing of data packets between devices on different networks, handling logical addressing and providing routing, forwarding, and congestion control.
+
+* Transport Layer: Ensures the reliable delivery of data between devices, handling end-to-end communication, error detection, and flow control. This layer is responsible for breaking down large messages into s  maller segments and reassembling them on the receiving end.
+
+* Session Layer: Establishes, maintains, and terminates communication sessions between applications, managing dialogue control, synchronization, and data exchange.
+
+* Presentation Layer: Translates data between the application layer and the lower layers, handling data format translation, encryption, compression, and other presentation-related tasks.
+
+* Application Layer: Provides network services directly to end-users or applications, dealing with high-level protocols such as HTTP, SMTP, and FTP. This layer is the closest to the end-user and interacts dire  ctly with software applications.
 
 * How it is organized
 
