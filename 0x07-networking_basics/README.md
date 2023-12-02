@@ -5,14 +5,13 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # OSI Model
 
-* What it is
 The OSI (Open Systems Interconnection) Model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. 
 
 Each layer serves a specific purpose and interacts with adjacent layers, providing a modular approach to understanding and designing network architectures. 
 
 The model was developed by the International Organization for Standardization (ISO) to promote interoperability and compatibility between different systems and vendors.
 
-* How many layers it has
+
 The OSI Model consists of the following seven layers, listed from the lowest level to the highest level:
 
  * Physical Layer: Deals with the physical connection between devices, defining characteristics such as voltage levels, data rates, and physical connectors.
@@ -29,7 +28,9 @@ The OSI Model consists of the following seven layers, listed from the lowest lev
 
  * Application Layer: Provides network services directly to end-users or applications, dealing with high-level protocols such as HTTP, SMTP, and FTP. This layer is the closest to the end-user and interacts dir   ectly with software applications.
 
- * How it is organized
+
+How it is organized
+
 The OSI Model is organized in a hierarchical manner, with each layer building upon the services provided by the layers beneath it. 
 
 The model helps in understanding and designing complex network systems by breaking down the communication process into manageable and well-defined layers. 
@@ -40,7 +41,35 @@ It also facilitates interoperability between different systems, as long as each 
 
 * Typical usage
 
+A LAN, or Local Area Network, is a network of interconnected computers, devices, and resources within a limited geographic area, such as a home, office, or campus. 
+
+The primary purpose of a LAN is to enable the sharing of resources and information among connected devices. LANs typically use high-speed and relatively low-cost connections for data transfer.
+
+LANs are commonly used for various purposes, including:
+
+ * File Sharing: Users on a LAN can share files and documents easily, facilitating collaboration and resource sharing within a localized environment.
+
+ * Printers and Peripherals: Printers, scanners, and other peripherals can be shared among multiple users on a LAN, reducing costs and improving efficiency.
+
+ * Centralized Internet Access: A LAN often connects to the internet through a single gateway, allowing multiple devices to access the internet using a shared connection.
+
+ * Application Sharing: LANs enable the sharing of software applications and databases, which can be accessed by users across the network.
+
+ * Communication: LANs support local communication through services such as email, instant messaging, and video conferencing.
+
+ * Resource Management: LANs make it easier to manage and administer resources, such as user accounts, security settings, and network configurations.
+
 * Typical geographical size
+
+The geographical size of a LAN is relatively small compared to other types of networks. 
+
+While there is no strict definition of the maximum size of a LAN, it typically covers an area such as a single building, a floor of a building, or a campus. 
+
+The distance covered by a LAN is usually limited to a few kilometers. 
+
+Ethernet and Wi-Fi are common technologies used to implement LANs, providing high-speed connectivity for devices within the defined local area. 
+
+As the distance increases, the performance of these technologies may degrade, and other types of networks, such as wide-area networks (WANs), become more suitable.
 
 # What is a WAN
 * Typical usage
