@@ -127,10 +127,28 @@ IPv6 was created to address the limitations of IPv4, particularly the exhaustion
 
 * What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
 
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two of the main transport layer protocols used for data transfer in IP networks. They operate at the transport layer (Layer 4) of the OSI model.
+
 * What is the main difference between TCP and UDP
+
+The main difference between TCP and UDP lies in their connection-oriented nature and reliability:
+
+TCP (Transmission Control Protocol): Connection-oriented protocol that provides reliable and ordered delivery of data. It establishes a connection before data exchange and ensures that data is received correctly through mechanisms like acknowledgment and retransmission.
+
+UDP (User Datagram Protocol): Connectionless protocol that does not guarantee reliable delivery. It sends data without establishing a connection and does not provide mechanisms for acknowledgment or retransmission. UDP is often used for real-time applications where low latency is critical.
 
 * What is a port
 
+A port is a 16-bit unsigned integer, thus ranging from 0 to 65535, used to identify specific processes to which Internet or network-related messages are sent. Ports allow a single host with a single IP address to run multiple network services simultaneously. Ports are categorized into two types: well-known ports (0-1023), registered ports (1024-49151), and dynamic or private ports (49152-65535).
+
 * Memorize SSH, HTTP and HTTPS port numbers
 
+SSH (Secure Shell): Port 22
+
+HTTP (Hypertext Transfer Protocol): Port 80
+
+HTTPS (Hypertext Transfer Protocol Secure): Port 443
+
 * What tool/protocol is often used to check if a device is connected to a network
+
+The Ping tool, which uses the ICMP (Internet Control Message Protocol), is often used to check if a device is connected to a network. The Ping command sends a small packet of data to a specific IP address and waits for a response. If the target device is reachable and connected, it will reply, confirming the connectivity. The Ping tool is widely used for network troubleshooting and diagnostics.
