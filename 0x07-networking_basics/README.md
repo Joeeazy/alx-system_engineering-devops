@@ -95,15 +95,33 @@ WANs use various technologies to transmit data over long distances.
 
 # What is the Internet
 
+The Internet is a global network that interconnects millions of private, public, academic, business, and government networks. It is a vast and decentralized network of networks, allowing users to access information, communicate, and share resources across the globe. The Internet uses a variety of protocols, such as the TCP/IP (Transmission Control Protocol/Internet Protocol) suite, to facilitate communication between devices.
+
 * What is an IP address
+
+An IP address (Internet Protocol address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two main purposes: host or network interface identification and location addressing. There are two types of IP addresses:
+
+IPv4 Address: This is the most common type of IP address and consists of four sets of numbers separated by dots (e.g., 192.168.0.1). IPv4 addresses are limited in number and are being gradually replaced by IPv6 due to address exhaustion issues.
+
+IPv6 Address: IPv6 (Internet Protocol version 6) addresses were introduced to overcome the limitations of IPv4 by providing a much larger address space. IPv6 addresses are represented as eight groups of hexadecimal digits separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 
 * What are the 2 types of IP address
 
+Static IP Address: A static IP address is manually assigned to a device and does not change over time. It provides a simple and stable way for remote computers to contact a specific device.
+
+Dynamic IP Address: A dynamic IP address is automatically assigned to a device by a network's DHCP (Dynamic Host Configuration Protocol) server. Dynamic addressing is more flexible and efficient, especially in large networks where assigning static IP addresses manually can be impractical.
+
 * What is localhost
+
+"Localhost" refers to the loopback address 127.0.0.1 in IPv4 or ::1 in IPv6. It is used to access the network services that are running on the host via the loopback network interface. Essentially, when a program on a computer refers to "localhost," it is directing its communication to the local machine itself.
 
 * What is a subnet
 
+A subnet, or subnetwork, is a logically segmented section of a larger network. Subnetting is used to divide a large IP network into smaller, more manageable segments. This helps in improving network performance, security, and organization. Devices within the same subnet can communicate directly with each other, while communication between subnets usually involves routing.
+
 * Why IPv6 was created
+
+IPv6 was created to address the limitations of IPv4, particularly the exhaustion of available IPv4 addresses. As the number of devices connected to the Internet increased exponentially, the 32-bit address space provided by IPv4 became insufficient to accommodate the growing demand. IPv6, with its 128-bit address space, provides an astronomically larger pool of unique addresses, ensuring the continued growth of the Internet and supporting the increasing number of connected devices. IPv6 also brings improvements in terms of security, efficiency, and additional features compared to IPv4.
 
 # TCP/UDP
 
