@@ -6,6 +6,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # OSI Model
 
 * What it is
+The OSI (Open Systems Interconnection) Model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. 
+
+Each layer serves a specific purpose and interacts with adjacent layers, providing a modular approach to understanding and designing network architectures. 
+
+The model was developed by the International Organization for Standardization (ISO) to promote interoperability and compatibility between different systems and vendors.
 
 * How many layers it has
 
