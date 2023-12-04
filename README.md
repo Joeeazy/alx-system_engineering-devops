@@ -9,3 +9,7 @@
 [0x04-loops_conditions_and_parsing] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 
 [0x05-processes_and_signals] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x05-processes_and_signals)
+
+[0x06-regular_expressions] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x06-regular_expressions)
+
+[0x07-networking_basics] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x07-networking_basics)
