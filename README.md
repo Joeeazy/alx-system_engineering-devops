@@ -13,3 +13,7 @@
 [0x06-regular_expressions] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x06-regular_expressions)
 
 [0x07-networking_basics] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x07-networking_basics)
+
+[0x08-networking_basics_2] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/0x08-networking_basics_2)
+
+[command_line_for_the_win] (https://github.com/Joeeazy/alx-system_engineering-devops/tree/main/command_line_for_the_win)
