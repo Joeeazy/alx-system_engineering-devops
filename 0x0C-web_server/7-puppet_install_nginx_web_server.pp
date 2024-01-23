@@ -1,10 +1,5 @@
-# Class: nginx
-#
-# This class installs and configures Nginx web server.
-#
-# Parameters:
-#   None
-#
+# setting up a nginx server
+
 class nginx {
   # Install Nginx package
   package { 'nginx':
