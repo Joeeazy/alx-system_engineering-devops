@@ -6,21 +6,18 @@ class nginx {
     ensure => installed,
   }
 
-  # Configure Nginx service
   service { 'nginx':
     ensure  => running,
     enable  => true,
     require => Package['nginx'],
   }
 
-  # Create custom index HTML page
   file { '/var/www/html/index.html':
     ensure  => present,
     content => 'Hello World!',
     require => Package['nginx'],
   }
 
-  # Configure Nginx server block
   file { '/etc/nginx/sites-available/default':
     ensure  => present,
     content => "
@@ -45,5 +42,4 @@ class nginx {
   }
 }
 
-# Apply nginx class
 include nginx
