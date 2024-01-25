@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# default decryption with my private key
+
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@100.25.161.55
