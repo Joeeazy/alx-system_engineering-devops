@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # using Puppet to make changes to our configuration file.
 
-file { 'etc/ssh/ssh_cofig':
-	ensure => present,
+file_line { 'Turn off password authentication':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => '    PasswordAuthentication no',
+}
 
-content =>"
-
-	 #The configuration innit
-	 host*
-	 IdentityFile ~/.ssh/school
-	 PasswordAuthentication no
-	 ",
+file_line { 'config using the file':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => '    IdentityFile ~/.ssh/school',
 }
