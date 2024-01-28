@@ -10,5 +10,8 @@ fi
 # Create a custom index page with "Hello World" content.
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
+# Tesing nginx config
+sudo nginx -t
+
 # Restart\Reload Nginx service to render our new contents.
 service nginx reload
