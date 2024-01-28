@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Intall and config Nginx in our remote server.
 
-# Install Nginx if not already installed
+# commands to Install Nginx
 if ! [ -x "$(command -v nginx)" ]; then
   apt-get update
   apt-get install -y nginx
 fi
 
-# Create a custom index page.
+# Create a custom index page with "Hello World" content.
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
-# Restart Nginx service.
-service nginx restart
+# Restart\Reload Nginx service to render our new contents.
+service nginx reload
