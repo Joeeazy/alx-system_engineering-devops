@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # performing a 301 code
-
 # Update and install Nginx if not installed
 if ! [ -x "$(command -v nginx)" ]; then
   apt-get update
