@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
-# Install and configure Nginx on the remote server
+# performing a 301 code
 
-# Update package lists and install Nginx if not installed
+# Update and install Nginx if not installed
 if ! [ -x "$(command -v nginx)" ]; then
   apt-get update
   apt-get install -y nginx
 fi
 
-# Configure Nginx
+# Configure nginx
 echo "Hello World!" | sudo tee /var/www/html/index.html
-sudo sed -i "/server_name _;/a \    location /redirect_me {\n        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n    }" /etc/nginx/sites-available/default
+
+new_string = "server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Joeeazy permanent;"
+
+sudo sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-enabled/default
 
 # Restart Nginx service
-service nginx restart
+sudo service nginx restart
