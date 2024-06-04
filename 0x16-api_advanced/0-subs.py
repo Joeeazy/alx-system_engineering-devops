@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Script that queries RedditApi and returns subscribers on a given Reddit subreddit.
+Script that queries RedditApi and 
+returns subscribers on a given Reddit subreddit.
 """
 
 import requests
