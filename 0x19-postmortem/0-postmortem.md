@@ -1,6 +1,6 @@
 # Issue Summary:
 
-Duration: March 14, 2024, 10:00 M — March 15, 2024, 2:00 PM (UTC)
+Duration: June 9, 2024, 10:00 M — June 10, 2024, 2:00 PM (UTC)
 
 Impact: The web application experienced intermittent downtime, resulting in slow response times and partial service disruption. Approximately 20% of users were affected during this period.
 
@@ -8,7 +8,7 @@ Root Cause: An overloaded cache layer caused increased latency and intermittent 
 
 # Timeline:
 
-March 14, 2024, 10:15 AM (UTC): The issue was detected through monitoring alerts showing a significant increase in response time.
+June 9, 2024, 12:15 PM (UTC): The issue was detected through monitoring alerts showing a significant increase in response time.
 
 Actions taken: Initially suspected a database problem, focusing on recent schema changes during deployment.
 
@@ -16,7 +16,7 @@ Misleading investigation: Attention was directed towards the database cluster.
 
 Escalation: The incident was escalated to the database administration team for assessment.
 
-March 15, 2024, 12:30 PM (UTC): The root cause was identified as an overloaded cache layer.
+June 10, 2024, 12:30 PM (UTC): The root cause was identified as an overloaded cache layer.
 
 Resolution: The infrastructure team adjusted the cache configuration and implemented a monitoring system.
 
